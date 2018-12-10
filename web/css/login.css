@@ -1,0 +1,76 @@
+body{
+    
+}
+
+#bg-login{
+    height: 100vh;
+    width: auto;
+    background-image: radial-gradient(#424242,#212121 );
+    background-repeat: no-repeat;
+
+}
+
+.login{
+    margin: 100px 0 0 0;
+    padding: 50px 0 50px 0;
+    background-image: linear-gradient(to top right, #f5f5f5, #fafafa);
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 0px 4px 1px #bdbdbd;
+}
+.titulo-login{
+
+}
+.conteudo-login{
+
+}
+
+.conteudo-login input{
+    border:none;
+    border-bottom: 1px solid #2ecc71;
+    border-bottom-right-radius: 1px;
+    border-bottom-left-radius: 10px;
+    background-color:transparent; 
+}
+.conteudo-login input:active{
+    border:none;
+    border-top-right-radius: 1px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    border-bottom-left-radius: 10px;
+    background-color:#f5f5f5; 
+    box-shadow: none;
+}
+.conteudo-login input:hover{
+    border:none;
+    border-bottom-right-radius: 1px;
+    border-bottom-left-radius: 10px;
+    box-shadow:  1px 1px 10px #2ecc71;
+}
+.conteudo-login input:focus{
+    border-top-right-radius: 1px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    border-bottom-left-radius: 10px;
+    background-color:#f5f5f5;
+    box-shadow:  1px 1px 10px #2ecc71;
+}
+.conteudo-login .btn{
+    color:white;
+    background-image: linear-gradient(to top right, #27ae60, #2ecc71);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 1px;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 1px 2px 5px #198547;
+}
+.footer-login{
+    margin: 50px 0 0 0;
+    color: gray;
+}
+.footer-login b{
+    color:#27ae60;
+}
+.help-block{
+    color:#E74C3C;
+}
